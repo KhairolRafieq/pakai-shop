@@ -35,21 +35,21 @@ const HomeScreen = () => {
 
   const subCategory = [
     {
-      _id: 'men-cloth',
+      _id: 'men-clothing',
       name: 'men-clothing',
-      image: '/images/airpods.jpg',
+      image: 'https://i.ebayimg.com/images/g/VYAAAOSwl91mWD11/s-l1600.jpg',
       // image: '/images/mens-cloth.jpg'
     },
     {
-      _id: 'kid-cloth',
+      _id: 'kid-clothing',
       name: 'kid-clothing',
-      image: '/images/airpods.jpg',
+      image: 'https://images.squarespace-cdn.com/content/v1/634d511a9ef7d90a947cc190/1681833467714-SZ629SHY19TOK8IDLIT2/kids-hoodie-jet-black-right-front-643ebdf29085c.jpg?format=1000w',
       // image: '/images/mens-cloth.jpg'
     },
     {
-      _id: 'women-cloth',
+      _id: 'women-clothing',
       name: 'women-clothing',
-      image: '/images/airpods.jpg',
+      image: 'https://img.lazcdn.com/g/p/5223bb3415dd286638829ab8372e4be0.jpg_720x720q80.jpg',
       // image: '/images/mens-cloth.jpg'
     },
   ]

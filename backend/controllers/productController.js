@@ -161,11 +161,12 @@ const getBySubcategory = asyncHandler(async (req, res) => {
     return res.status(400).json({ message: 'Subcategory is required' });
   }
 
-  // Use case-insensitive regular expression
-  const products = await Product.find({ subCategory: { $regex: new RegExp(subcategory, 'i') } });
+  // Query for exact subcategory value
+  const products = await Product.find({ subCategory: subcategory });
   
   res.json(products);
 });
+
 
 
 
